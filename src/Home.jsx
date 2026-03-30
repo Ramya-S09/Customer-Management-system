@@ -9,7 +9,7 @@ export default function Home() {
 
       <div>
         <Link to="/signin"><button className="btn btn-light text-primary me-2">
-          Sign In
+          LOGIN
         </button></Link>
         <Link to="/signup"><button className="btn btn-light  text-primary me-2">
           Sign Up
