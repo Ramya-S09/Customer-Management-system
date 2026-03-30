@@ -10,7 +10,7 @@ export default function Delete() {
         }).then((res) => res.text())    
         .then((data) => {
             if(data==="customer deleted sucessfully"){
-                alert("customer deleted successfully")
+                alert("customer deleted successfully!")
                 Navigate("/customerDetails")
             } 
             else{
